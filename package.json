@@ -1,0 +1,24 @@
+{
+  "name": "react-jersey",
+  "description": "A UI Component Library for Computers",
+  "license": "MIT",
+  "author": "Kristopher Wilson <kristopherwilson@gmail.com>",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && babel src --out-dir dist",
+    "clean": "rm -rf dist",
+    "start": "watch 'npm run build' src/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "react": "^15.0.0",
+    "watch": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0"
+  }
+}
