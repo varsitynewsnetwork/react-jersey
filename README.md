@@ -2,6 +2,8 @@
 
 # react-jersey
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/varsitynewsnetwork/react-jersey.svg)](https://greenkeeper.io/)
+
 > A UI Component Library for Computers
 
 ## Installation
